@@ -1,0 +1,204 @@
+/*
+
+ ////////  //     //  //     //  ////////   //     //   ////////   ///////////////   ////////  ////    //     //  /////////  ////  
+//         //     //  //     //  //     //  //     //  //     //  //     //     //  //           //    //     //  //     //    //
+//         //     //  //     //  //     //  //     //  //     //  //     //     //  //           //    //     //  //     //    //
+ ///////   /////////  //     //  /////////  /////////  /////////  //     //     //   ////////    //    /////////  //     //    //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //         //    //           //  //     //    //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //         //    //           //  //     //    //
+////////   //     //   ///////   ////////   //     //  //     //  //     //     //  ////////   //////         //  /////////  ////// 
+
+
+
+ ////////  //     //  //     //  ////////   //     //   ////////   ///////////////  
+//         //     //  //     //  //     //  //     //  //     //  //     //     //    
+//         //     //  //     //  //     //  //     //  //     //  //     //     //    
+ ///////   /////////  //     //  /////////  /////////  /////////  //     //     //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //   
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //   
+////////   //     //   ///////   ////////   //     //  //     //  //     //     //  
+
+
+ ////////   ///////    ///////////////  ////////   //     //   ///////     //////    ///////  
+//         //     //  //     //     //  //     //  //     //  //     //      //        //    
+//         //     //  //     //     //  //     //  //     //  //     //      //        //    
+ ////////  /////////  //     //     //  /////////  /////////  /////////      //        //
+       //  //     //  //     //     //  //     //  //     //  //     //      //        //   
+       //  //     //  //     //     //  //     //  //     //  //     //      //        //   
+////////   //     //  //     //     //  ////////   //     //  //     //    ///       //////  
+
+
+ ////////  /////////   //     //     //  ////////    ////////  //////////
+//         //     //   //     //     //  //     //  //     //      //    
+//         //     //   //     //     //  //     //  //     //      //    
+ ///////   /////////   //     //     //  /////////  //     //      //
+       //  //     //   //     //     //  //     //  //     //      //   
+       //  //     //   //     //     //  //     //  //     //      //   
+////////   //     //    //////////////   //     //  //     //      //
+
+*/
+.feedback {
+  margin: 30px 50px 45px 50px;
+  justify-content: center;
+  background-color: rgba(191, 190, 187, 0.4);
+  border: 1px solid rgba(191, 190, 187, 0.4);
+  border-radius: 5px;
+  padding: 15px 15px 15px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.feedback form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback section table {
+  border-collapse: collapse;
+  width: 50%;
+  box-shadow: 0 0 10px rgba(85, 140, 230, 0.6);
+  border-radius: 5px;
+}
+
+.feedback section table tr td {
+  padding: 10px 10px 10px 10px;
+}
+
+#feedback_heading {
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.feedback_label {
+  font-weight: bold;
+  font-size: 20px;
+  width: 12%;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.feedback_input {
+  padding: 10px;
+  width: 95%;
+  height: 5vh;
+  display: block;
+  word-wrap: wrap;
+  border: none;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.feedback_input::placeholder {
+  padding-top: 5px;
+}
+
+.feedback_input_2 {
+  height: 12vh;
+  resize: none;
+}
+
+.submit_button {
+  width: 20%;
+}
+
+.submit_button input {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  height: 5%;
+  background-color: rgba(85, 140, 230, 0.6);
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.submit_button input:hover {
+  background-color: rgba(85, 140, 230, 1);
+}
+
+.feedback_date_time {
+  display: none;
+}
+
+.feedback_button_container {
+  width: 100vw;
+  height: 50px;
+  position: fixed;
+  bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.feedback_button_container a {
+  height: 100%;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.feedback_button {
+  background-color: rgba(217, 151, 65, 1);
+  width: 20vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+/*Responsive start*/
+
+@media only screen and (max-width: 850px) {
+  .feedback {
+    margin: 10px 20px 10px 20px;
+  }
+  .feedback section table {
+    width: 100%;
+  }
+  #feedback_heading {
+    font-size: 20px;
+  }
+  .feedback_label {
+    font-size: 15px;
+  }
+  .feedback_input {
+    padding: 5px;
+    width: 95%;
+    height: 5vh;
+  }
+  .feedback_input_2 {
+    height: 12vh;
+    resize: none;
+  }
+  .submit_button {
+    width: 30%;
+  }
+  .feedback_date_time {
+    display: none;
+  }
+  .feedback_button_container a {
+    font-size: 20px;
+  }
+  .feedback_button {
+    width: 40vw;
+  }
+  .feedback_button_container {
+    bottom: 10px;
+  }
+}

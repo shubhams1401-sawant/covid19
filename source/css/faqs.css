@@ -1,0 +1,135 @@
+/*
+
+ ////////  //     //  //     //  ////////   //     //   ////////   ///////////////   ////////  ////    //     //  /////////  ////  
+//         //     //  //     //  //     //  //     //  //     //  //     //     //  //           //    //     //  //     //    //
+//         //     //  //     //  //     //  //     //  //     //  //     //     //  //           //    //     //  //     //    //
+ ///////   /////////  //     //  /////////  /////////  /////////  //     //     //   ////////    //    /////////  //     //    //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //         //    //           //  //     //    //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //         //    //           //  //     //    //
+////////   //     //   ///////   ////////   //     //  //     //  //     //     //  ////////   //////         //  /////////  ////// 
+
+
+
+ ////////  //     //  //     //  ////////   //     //   ////////   ///////////////  
+//         //     //  //     //  //     //  //     //  //     //  //     //     //    
+//         //     //  //     //  //     //  //     //  //     //  //     //     //    
+ ///////   /////////  //     //  /////////  /////////  /////////  //     //     //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //   
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //   
+////////   //     //   ///////   ////////   //     //  //     //  //     //     //  
+
+
+ ////////   ///////    ///////////////  ////////   //     //   ///////     //////    ///////  
+//         //     //  //     //     //  //     //  //     //  //     //      //        //    
+//         //     //  //     //     //  //     //  //     //  //     //      //        //    
+ ////////  /////////  //     //     //  /////////  /////////  /////////      //        //
+       //  //     //  //     //     //  //     //  //     //  //     //      //        //   
+       //  //     //  //     //     //  //     //  //     //  //     //      //        //   
+////////   //     //  //     //     //  ////////   //     //  //     //    ///       //////  
+
+
+ ////////  /////////   //     //     //  ////////    ////////  //////////
+//         //     //   //     //     //  //     //  //     //      //    
+//         //     //   //     //     //  //     //  //     //      //    
+ ///////   /////////   //     //     //  /////////  //     //      //
+       //  //     //   //     //     //  //     //  //     //      //   
+       //  //     //   //     //     //  //     //  //     //      //   
+////////   //     //    //////////////   //     //  //     //      //
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Stoke:wght@300&display=swap');
+.faqs {
+  margin: 30px 50px 45px 50px;
+  justify-content: center;
+  background-color: rgba(191, 190, 187, 0.4);
+  border: 1px solid rgba(191, 190, 187, 0.4);
+  border-radius: 5px;
+  padding: 15px 15px 15px 15px;
+  /*height: 500px;*/
+}
+
+#faqs-heading {
+  color: black;
+  font-size: 30px;
+  margin: 0 0 0 0;
+  text-align: left;
+  font-family: 'Stoke', serif;
+}
+
+.faqs table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.faqs tr {
+  height: 50px;
+}
+
+.faqs td {
+  width: 50%;
+  padding-left: 5px;
+}
+
+.faqs table a {
+  margin-left: 8px;
+  font-size: 18px;
+  font-family: 'Mukta', sans-serif;
+  color: rgb(109, 123, 191);
+}
+
+.faq-question-faq-left {
+  width: 32%;
+  margin-left: 50px;
+  padding-top: 50px;
+  /*background-color: pink;*/
+}
+
+.faq-question-faq-left .faqs td {
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.faq-question-faq-left .faqs {
+  margin: 0 0 0 0;
+}
+
+.faq-question-faq-bottom {
+  display: none;
+}
+
+.line-faq-small-screen {
+  display: none;
+}
+
+
+/*Responsive start*/
+
+@media only screen and (max-width: 850px) {
+  .faqs {
+    margin: 10px 20px 10px 20px;
+  }
+  .faqs td {
+    font-size: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /*height: 40px;*/
+  }
+  .faq-question-faq-left {
+    display: none;
+  }
+  .faq-question-faq-bottom {
+    width: 100%;
+    margin-top: 5px;
+    display: block;
+  }
+  .line-faq-small-screen {
+    display: block;
+    margin: 5px 20px 0 20px;
+  }
+}

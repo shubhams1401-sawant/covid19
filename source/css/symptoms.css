@@ -1,0 +1,129 @@
+/*
+
+ ////////  //     //  //     //  ////////   //     //   ////////   ///////////////   ////////  ////    //     //  /////////  ////  
+//         //     //  //     //  //     //  //     //  //     //  //     //     //  //           //    //     //  //     //    //
+//         //     //  //     //  //     //  //     //  //     //  //     //     //  //           //    //     //  //     //    //
+ ///////   /////////  //     //  /////////  /////////  /////////  //     //     //   ////////    //    /////////  //     //    //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //         //    //           //  //     //    //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //         //    //           //  //     //    //
+////////   //     //   ///////   ////////   //     //  //     //  //     //     //  ////////   //////         //  /////////  ////// 
+
+
+
+ ////////  //     //  //     //  ////////   //     //   ////////   ///////////////  
+//         //     //  //     //  //     //  //     //  //     //  //     //     //    
+//         //     //  //     //  //     //  //     //  //     //  //     //     //    
+ ///////   /////////  //     //  /////////  /////////  /////////  //     //     //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //   
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //   
+////////   //     //   ///////   ////////   //     //  //     //  //     //     //  
+
+
+ ////////   ///////    ///////////////  ////////   //     //   ///////     //////    ///////  
+//         //     //  //     //     //  //     //  //     //  //     //      //        //    
+//         //     //  //     //     //  //     //  //     //  //     //      //        //    
+ ////////  /////////  //     //     //  /////////  /////////  /////////      //        //
+       //  //     //  //     //     //  //     //  //     //  //     //      //        //   
+       //  //     //  //     //     //  //     //  //     //  //     //      //        //   
+////////   //     //  //     //     //  ////////   //     //  //     //    ///       //////  
+
+
+ ////////  /////////   //     //     //  ////////    ////////  //////////
+//         //     //   //     //     //  //     //  //     //      //    
+//         //     //   //     //     //  //     //  //     //      //    
+ ///////   /////////   //     //     //  /////////  //     //      //
+       //  //     //   //     //     //  //     //  //     //      //   
+       //  //     //   //     //     //  //     //  //     //      //   
+////////   //     //    //////////////   //     //  //     //      //
+
+*/
+* {
+  font-family: 'Mukta', sans-serif;
+}
+
+.symptoms-container {
+  padding-top: 15vh;
+  display: flex;
+}
+
+.symptoms-details {
+  width: 70%;
+  height: 100%;
+  margin-right: 50px;
+}
+
+.symptoms-details h1 {
+  padding-top: 5px;
+  padding-left: 50px;
+  font-size: 100px;
+  display: flex;
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
+  background: -webkit-linear-gradient(rgb(154, 5, 35), rgb(248, 195, 191), rgb(235, 28, 51), rgb(203, 8, 40), rgb(251, 119, 151), rgb(235, 28, 51));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Akaya Kanadaka', cursive;
+}
+
+.symptoms-details h1 img {
+  width: 100px;
+  height: 100px;
+}
+
+.symptoms-details h1 span {
+  padding-left: 30px;
+}
+
+.symptoms-details section {
+  margin-left: 80px;
+}
+
+.symptoms-details section p {
+  text-align: justify;
+  font-size: 18px;
+  font-family: 'Mukta', sans-serif;
+}
+
+.symptoms-details section p:last-child {
+  font-size: 15px;
+}
+
+.symptoms-details section ul {
+  margin-left: 50px;
+}
+
+.symptoms-details section ul li {
+  font-size: 16px;
+  font-family: 'Mukta', sans-serif;
+  text-transform: capitalize;
+}
+
+
+/* Responsive design start*/
+
+@media only screen and (max-width: 850px) {
+  .symptoms-container {
+    display: inline-block;
+  }
+  .symptoms-details {
+    width: 100%;
+    height: 100%;
+  }
+  .symptoms-details h1 {
+    font-size: 40px;
+    margin-left: -25px;
+    text-align: left;
+  }
+  .symptoms-details h1 img {
+    width: 50px;
+    height: 50px;
+    margin-left: -25px;
+  }
+  .symptoms-details h3 {
+    text-align: justify;
+    margin-left: 15px;
+  }
+  .symptoms-details section {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

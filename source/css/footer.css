@@ -1,0 +1,231 @@
+/*
+
+ ////////  //     //  //     //  ////////   //     //   ////////   ///////////////   ////////  ////    //     //  /////////  ////  
+//         //     //  //     //  //     //  //     //  //     //  //     //     //  //           //    //     //  //     //    //
+//         //     //  //     //  //     //  //     //  //     //  //     //     //  //           //    //     //  //     //    //
+ ///////   /////////  //     //  /////////  /////////  /////////  //     //     //   ////////    //    /////////  //     //    //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //         //    //           //  //     //    //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //         //    //           //  //     //    //
+////////   //     //   ///////   ////////   //     //  //     //  //     //     //  ////////   //////         //  /////////  ////// 
+
+
+
+ ////////  //     //  //     //  ////////   //     //   ////////   ///////////////  
+//         //     //  //     //  //     //  //     //  //     //  //     //     //    
+//         //     //  //     //  //     //  //     //  //     //  //     //     //    
+ ///////   /////////  //     //  /////////  /////////  /////////  //     //     //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //   
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //   
+////////   //     //   ///////   ////////   //     //  //     //  //     //     //  
+
+
+ ////////   ///////    ///////////////  ////////   //     //   ///////     //////    ///////  
+//         //     //  //     //     //  //     //  //     //  //     //      //        //    
+//         //     //  //     //     //  //     //  //     //  //     //      //        //    
+ ////////  /////////  //     //     //  /////////  /////////  /////////      //        //
+       //  //     //  //     //     //  //     //  //     //  //     //      //        //   
+       //  //     //  //     //     //  //     //  //     //  //     //      //        //   
+////////   //     //  //     //     //  ////////   //     //  //     //    ///       //////  
+
+
+ ////////  /////////   //     //     //  ////////    ////////  //////////
+//         //     //   //     //     //  //     //  //     //      //    
+//         //     //   //     //     //  //     //  //     //      //    
+ ///////   /////////   //     //     //  /////////  //     //      //
+       //  //     //   //     //     //  //     //  //     //      //   
+       //  //     //   //     //     //  //     //  //     //      //   
+////////   //     //    //////////////   //     //  //     //      //
+
+*/
+.footer {
+  background-color: rgb(41, 39, 38);
+  color: white;
+  margin-top: 0;
+  display: block;
+  padding-top: 20px;
+  border-top: 1px solid rgb(161, 161, 161);
+}
+
+.footer-middle {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.explore {
+  color: white;
+  width: 25%;
+  height: 100%;
+}
+
+.explore p {
+  font-size: 25px;
+  padding-top: 5px;
+  padding-left: 15px;
+  line-height: 30px;
+  font-family: 'Mukta', sans-serif;
+}
+
+.explore ul {
+  list-style: none;
+  padding-left: 30px;
+  font-size: 18px;
+}
+
+#explore-span a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.explore ul li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.contact-us {
+  width: 40%;
+  display: block;
+  justify-content: center;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.contact-us span:nth-child(1) {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-us p {
+  width: 50%;
+  height: 20%;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  box-shadow: 0 0 10px white;
+}
+
+.contact-us ul {
+  list-style: none;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contact-us ul li {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px auto;
+  /*border: 1px solid white;*/
+  border-radius: 5px;
+  /*box-shadow: 0 0 20px rgb(76,172,84);*/
+  /*whatsapp*/
+  /*box-shadow: 0 0 20px rgb(244,89,47);*/
+  /*instagram*/
+  /*box-shadow: 0 0 20px rgb(28,116,212);*/
+  /*facebook*/
+  /*box-shadow: 0 0 20px rgb(12,156,228);*/
+  /*telegram*/
+}
+
+.contact-us ul li:nth-child(1) {
+  box-shadow: 0 0 20px rgb(76, 172, 84);
+  /*whatsapp*/
+}
+
+.contact-us ul li:nth-child(2) {
+  box-shadow: 0 0 20px rgb(244, 89, 47);
+  /*instagram*/
+}
+
+.contact-us ul li:nth-child(3) {
+  box-shadow: 0 0 20px rgb(28, 116, 212);
+  /*facebook*/
+}
+
+.contact-us ul li:nth-child(4) {
+  box-shadow: 0 0 20px rgb(12, 156, 228);
+  /*telegram*/
+}
+
+.contact-us ul li a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: none;
+}
+
+.contact-us ul li a span {
+  color: white;
+  margin-left: 5px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.contact-us ul img {
+  width: 50px;
+  height: 50px;
+}
+
+.footer-end {
+  width: 100%;
+  height: 20%;
+  margin-top: 0 0 0 0;
+  text-align: center;
+  background-color: rgb(128, 128, 128);
+}
+
+.footer-end a {
+  color: white;
+  text-decoration-color: white;
+}
+
+
+/* Responsive design start*/
+
+@media only screen and (max-width: 850px) {
+  .footer {
+    margin-top: 0;
+  }
+  .footer-middle {
+    display: block;
+    justify-content: center;
+  }
+  .explore {
+    width: 100%;
+  }
+  .explore hr {
+    display: none;
+  }
+  .footer-middle #explore-span {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    margin-bottom: 30px;
+  }
+  .footer- middle #explore-span section {
+    display: block;
+  }
+  .contact-us {
+    border-right: none;
+    border-left: none;
+    width: 100%;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+  }
+  .contact-us ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

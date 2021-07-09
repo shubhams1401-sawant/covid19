@@ -1,0 +1,243 @@
+/*
+
+ ////////  //     //  //     //  ////////   //     //   ////////   ///////////////   ////////  ////    //     //  /////////  ////  
+//         //     //  //     //  //     //  //     //  //     //  //     //     //  //           //    //     //  //     //    //
+//         //     //  //     //  //     //  //     //  //     //  //     //     //  //           //    //     //  //     //    //
+ ///////   /////////  //     //  /////////  /////////  /////////  //     //     //   ////////    //    /////////  //     //    //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //         //    //           //  //     //    //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //         //    //           //  //     //    //
+////////   //     //   ///////   ////////   //     //  //     //  //     //     //  ////////   //////         //  /////////  ////// 
+
+
+
+ ////////  //     //  //     //  ////////   //     //   ////////   ///////////////  
+//         //     //  //     //  //     //  //     //  //     //  //     //     //    
+//         //     //  //     //  //     //  //     //  //     //  //     //     //    
+ ///////   /////////  //     //  /////////  /////////  /////////  //     //     //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //   
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //   
+////////   //     //   ///////   ////////   //     //  //     //  //     //     //  
+
+
+ ////////   ///////    ///////////////  ////////   //     //   ///////     //////    ///////  
+//         //     //  //     //     //  //     //  //     //  //     //      //        //    
+//         //     //  //     //     //  //     //  //     //  //     //      //        //    
+ ////////  /////////  //     //     //  /////////  /////////  /////////      //        //
+       //  //     //  //     //     //  //     //  //     //  //     //      //        //   
+       //  //     //  //     //     //  //     //  //     //  //     //      //        //   
+////////   //     //  //     //     //  ////////   //     //  //     //    ///       //////  
+
+
+ ////////  /////////   //     //     //  ////////    ////////  //////////
+//         //     //   //     //     //  //     //  //     //      //    
+//         //     //   //     //     //  //     //  //     //      //    
+ ///////   /////////   //     //     //  /////////  //     //      //
+       //  //     //   //     //     //  //     //  //     //      //   
+       //  //     //   //     //     //  //     //  //     //      //   
+////////   //     //    //////////////   //     //  //     //      //
+
+*/
+* {
+  font-family: 'Mukta', sans-serif;
+}
+
+.faqs-question--container {
+  padding-top: 15vh;
+  display: flex;
+}
+
+.faqs-question-details {
+  width: 70%;
+  height: 100%;
+  margin-right: 50px;
+}
+
+.faqs-question-details h1 {
+  text-align: center;
+  padding-top: 5px;
+  padding-left: 50px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
+  background: -webkit-linear-gradient(rgb(154, 5, 35), rgb(248, 195, 191), rgb(235, 28, 51), rgb(203, 8, 40), rgb(251, 119, 151), rgb(235, 28, 51));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Akaya Kanadaka', cursive;
+}
+
+.faqs-question-details h1 img {
+  width: 100px;
+  height: 100px;
+}
+
+.faqs-question-details h1 span {
+  padding-left: 30px;
+}
+
+.faqs-question-details section {
+  margin-left: 80px;
+}
+
+.faqs-question-details section p {
+  text-align: justify;
+  font-size: 18px;
+  font-family: 'Mukta', sans-serif;
+}
+
+
+/*.faqs-question-details section p:last-child{
+	font-size: 15px;
+}*/
+
+.timeline-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px 0 10px;
+}
+
+.timeline-images img {
+  /*border: 1px solid black;*/
+  width: 500px;
+  height: 350px;
+}
+
+.faqs-question-details section ul {
+  margin-left: 50px;
+}
+
+.faqs-question-details section ul li {
+  font-size: 16px;
+  font-family: 'Mukta', sans-serif;
+  text-transform: capitalize;
+}
+
+#masks {
+  display: flex;
+  align-items: center;
+  font-family: 'Acme', sans-serif;
+  font-size: 30px;
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
+  background: -webkit-linear-gradient(rgb(165, 205, 225), rgb(78, 118, 171), rgb(78, 118, 171), rgb(23, 31, 95), rgb(35, 56, 111), rgb(31, 69, 134));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#masks img {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  padding: 4px 4px 4px 4px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background-color: rgba(232, 149, 149, 0.8);
+}
+
+.faq-photo-gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.faq-photo-gallery img {
+  width: 230px;
+  height: 200px;
+  margin-top: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+
+.faq-photo-gallery img:hover {
+  transform: scale(1.2, 1.2);
+}
+
+#stop-coronavirus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-left: 0;
+}
+
+#stop-coronavirus img {
+  width: 300px;
+  height: 250px;
+}
+
+#registeration-video {
+  width: 100%;
+  height: 60vh;
+  margin-left: 0;
+  border: 1px solid black;
+}
+
+#registeration-video iframe {
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Responsive design start*/
+
+@media only screen and (max-width: 850px) {
+  .faqs-question--container {
+    display: inline-block;
+  }
+  .faqs-question-details {
+    width: 100%;
+    height: 100%;
+  }
+  .faqs-question-details h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-left: -25px;
+  }
+  .faqs-question-details h1 img {
+    width: 50px;
+    height: 50px;
+    margin-left: -25px;
+  }
+  .faqs-question-details h3 {
+    text-align: justify;
+    margin-left: 15px;
+  }
+  .faqs-question-details section {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .faqs-question-details section {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .faqs-question-details section p {
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Mukta', sans-serif;
+  }
+  .timeline-images img {
+    width: 100%;
+    height: 100%;
+  }
+  .faq-photo-gallery img {
+    width: 150px;
+    height: 100px;
+    margin-top: 10px;
+  }
+  #stop-coronavirus img {
+    width: 250px;
+    height: 200px;
+  }
+  #registeration-video {
+    width: 100%;
+    height: 25vh;
+  }
+}

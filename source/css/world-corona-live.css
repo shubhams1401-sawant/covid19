@@ -1,0 +1,334 @@
+/*
+
+ ////////  //     //  //     //  ////////   //     //   ////////   ///////////////   ////////  ////    //     //  /////////  ////  
+//         //     //  //     //  //     //  //     //  //     //  //     //     //  //           //    //     //  //     //    //
+//         //     //  //     //  //     //  //     //  //     //  //     //     //  //           //    //     //  //     //    //
+ ///////   /////////  //     //  /////////  /////////  /////////  //     //     //   ////////    //    /////////  //     //    //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //         //    //           //  //     //    //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //         //    //           //  //     //    //
+////////   //     //   ///////   ////////   //     //  //     //  //     //     //  ////////   //////         //  /////////  ////// 
+
+
+
+ ////////  //     //  //     //  ////////   //     //   ////////   ///////////////  
+//         //     //  //     //  //     //  //     //  //     //  //     //     //    
+//         //     //  //     //  //     //  //     //  //     //  //     //     //    
+ ///////   /////////  //     //  /////////  /////////  /////////  //     //     //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //   
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //   
+////////   //     //   ///////   ////////   //     //  //     //  //     //     //  
+
+
+ ////////   ///////    ///////////////  ////////   //     //   ///////     //////    ///////  
+//         //     //  //     //     //  //     //  //     //  //     //      //        //    
+//         //     //  //     //     //  //     //  //     //  //     //      //        //    
+ ////////  /////////  //     //     //  /////////  /////////  /////////      //        //
+       //  //     //  //     //     //  //     //  //     //  //     //      //        //   
+       //  //     //  //     //     //  //     //  //     //  //     //      //        //   
+////////   //     //  //     //     //  ////////   //     //  //     //    ///       //////  
+
+
+ ////////  /////////   //     //     //  ////////    ////////  //////////
+//         //     //   //     //     //  //     //  //     //      //    
+//         //     //   //     //     //  //     //  //     //      //    
+ ///////   /////////   //     //     //  /////////  //     //      //
+       //  //     //   //     //     //  //     //  //     //      //   
+       //  //     //   //     //     //  //     //  //     //      //   
+////////   //     //    //////////////   //     //  //     //      //
+
+*/
+* {
+  font-family: 'Mukta', sans-serif;
+}
+
+.coid-19-live-india--world-corona-live {
+  padding-top: 15vh;
+}
+
+.cases {
+  display: flex;
+  justify-content: center;
+}
+
+.cases table {
+  border-collapse: collapse;
+}
+
+#cases-in-global {
+  margin-right: 3vw;
+}
+
+#cases-in-india {
+  margin-left: 3vw;
+}
+
+.cases th {
+  text-align: left;
+  padding-left: 15px;
+  font-size: 30px;
+}
+
+.cases tr:nth-child(2) {
+  text-align: left;
+  font-size: 14px;
+}
+
+.cases tr:nth-child(3),
+#cases-in-global-dynamic-table,
+#cases-in-india-dynamic-table {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cases td {
+  padding-left: 5px;
+  padding-right: 5px;
+  border-right: 1px solid rgb(184, 182, 178);
+}
+
+.cases table td:nth-child(1) {
+  width: 12vw;
+}
+
+.cases table td:nth-child(2) {
+  width: 6vw;
+}
+
+.cases table td:nth-child(3) {
+  width: 6vw;
+}
+
+.cases table td:nth-child(4) {
+  width: 6vw;
+}
+
+h1 {
+  padding-top: 5px;
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
+  background: -webkit-linear-gradient(rgb(154, 5, 35), rgb(248, 195, 191), rgb(235, 28, 51), rgb(203, 8, 40), rgb(251, 119, 151), rgb(235, 28, 51));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Akaya Kanadaka', cursive;
+}
+
+.table-design {
+  width: 90vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.table-design table {
+  width: 100%;
+  margin-right: 5vw;
+  margin-left: 5vw;
+  border-collapse: collapse;
+}
+
+.table-design tr {
+  font-size: 18px;
+  font-family: 'Mukta', sans-serif;
+}
+
+#table-design-heading {
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  background-color: red;
+  font-weight: bold;
+}
+
+
+.table-heading {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+
+.table-design table td {
+  text-align: center;
+  font-family: 'Mukta', sans-serif;
+  cursor: auto;
+  ;
+}
+
+.table-design tr:hover {
+  font-size: 20px;
+  color: rgb(255, 0, 0);
+}
+
+td:nth-child(1) {
+  width: 18%;
+}
+
+td:nth-child(2) {
+  width: 25%;
+}
+
+
+#all-countries-cases-in-global-dynamic-table tr:nth-child(even) {
+  background-color: rgba(252, 170, 170, 1);
+}
+
+.search_box{
+  width: 90vw;
+  height: 50px;
+  margin-left: 5vw;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ .search_box form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+.search_box form input:focus {
+  outline: none;
+}
+
+#search_box {
+  padding-left: 5px;
+  height: 80%;
+  width: 40%;
+  margin-right: 5px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 15px blue;
+}
+
+#reset_button {
+    cursor: pointer;
+    width: 10%;
+    border: none;
+    height: 80%;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;   
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 15px blue;
+}
+
+#reset_button:hover {
+  background-color: rgba(85, 140, 230, 1);
+}
+
+
+
+/* Responsive design start*/
+
+@media only screen and (max-width: 850px) {
+  .cases {
+    display: inline-block;
+  }
+  .cases th {
+    font-size: 20px;
+  }
+  .cases tr:nth-child(3),
+  #cases-in-india-dynamic-table,
+  #cases-in-global-dynamic-table {
+    font-size: 13px;
+  }
+  #cases-in-global {
+    margin-left: 3vw;
+  }
+  #cases-in-india {
+    margin-top: 5vw;
+    margin-left: 3vw;
+  }
+  .cases table td:nth-child(1) {
+    width: 30vw;
+  }
+  .cases table td:nth-child(2) {
+    width: 8vw;
+  }
+  .cases table td:nth-child(3) {
+    width: 8vw;
+  }
+  .cases table td:nth-child(4) {
+    width: 8vw;
+  }
+  h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+  #all-countries-cases-in-global-dynamic-table td {
+    border: 1px solid #ddd;
+  }
+  .table-design td:nth-child(1) {
+    font-size: 15px;
+  }
+  .table-design table {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+  }
+  .table-design tbody tr td {
+    display: block;
+    width: 100%;
+    text-align: right;
+  }
+  .table-design span {
+    padding-right: 8px;
+  }
+  #all-countries-cases-in-global-dynamic-table td:nth-child(1)::before {
+    content: "Last Update Time";
+    position: absolute;
+    text-align: left;
+    left: 0;
+    margin-left: 5vw;
+    padding-left: 8px;
+  }
+  #all-countries-cases-in-global-dynamic-table td:nth-child(2)::before {
+    content: "Country";
+    position: absolute;
+    text-align: left;
+    left: 0;
+    margin-left: 5vw;
+    padding-left: 8px;
+  }
+  #all-countries-cases-in-global-dynamic-table td:nth-child(3)::before {
+    content: "Total Confirmed";
+    position: absolute;
+    text-align: left;
+    left: 0;
+    margin-left: 5vw;
+    padding-left: 8px;
+  }
+  #all-countries-cases-in-global-dynamic-table td:nth-child(4)::before {
+    content: "Total Recovered";
+    position: absolute;
+    text-align: left;
+    left: 0;
+    margin-left: 5vw;
+    padding-left: 8px;
+  }
+  #all-countries-cases-in-global-dynamic-table td:nth-child(5)::before {
+    content: "Total Death";
+    position: absolute;
+    text-align: left;
+    left: 0;
+    margin-left: 5vw;
+    padding-left: 8px;
+  }
+  #table-design-heading {
+    display: none;
+  }
+   #search_box {
+    width: 70%;;
+  }
+
+  #reset_button {
+    width: 30%;;
+  }
+}

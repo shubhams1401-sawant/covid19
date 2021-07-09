@@ -1,0 +1,142 @@
+/*
+
+ ////////  //     //  //     //  ////////   //     //   ////////   ///////////////   ////////  ////    //     //  /////////  ////  
+//         //     //  //     //  //     //  //     //  //     //  //     //     //  //           //    //     //  //     //    //
+//         //     //  //     //  //     //  //     //  //     //  //     //     //  //           //    //     //  //     //    //
+ ///////   /////////  //     //  /////////  /////////  /////////  //     //     //   ////////    //    /////////  //     //    //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //         //    //           //  //     //    //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //         //    //           //  //     //    //
+////////   //     //   ///////   ////////   //     //  //     //  //     //     //  ////////   //////         //  /////////  ////// 
+
+
+
+ ////////  //     //  //     //  ////////   //     //   ////////   ///////////////  
+//         //     //  //     //  //     //  //     //  //     //  //     //     //    
+//         //     //  //     //  //     //  //     //  //     //  //     //     //    
+ ///////   /////////  //     //  /////////  /////////  /////////  //     //     //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //   
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //   
+////////   //     //   ///////   ////////   //     //  //     //  //     //     //  
+
+
+ ////////   ///////    ///////////////  ////////   //     //   ///////     //////    ///////  
+//         //     //  //     //     //  //     //  //     //  //     //      //        //    
+//         //     //  //     //     //  //     //  //     //  //     //      //        //    
+ ////////  /////////  //     //     //  /////////  /////////  /////////      //        //
+       //  //     //  //     //     //  //     //  //     //  //     //      //        //   
+       //  //     //  //     //     //  //     //  //     //  //     //      //        //   
+////////   //     //  //     //     //  ////////   //     //  //     //    ///       //////  
+
+
+ ////////  /////////   //     //     //  ////////    ////////  //////////
+//         //     //   //     //     //  //     //  //     //      //    
+//         //     //   //     //     //  //     //  //     //      //    
+ ///////   /////////   //     //     //  /////////  //     //      //
+       //  //     //   //     //     //  //     //  //     //      //   
+       //  //     //   //     //     //  //     //  //     //      //   
+////////   //     //    //////////////   //     //  //     //      //
+
+*/
+.covid-structure-info--covid-structutre {
+  padding-top: 15vh;
+}
+
+h1 {
+  padding-top: 5px;
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
+  background: -webkit-linear-gradient(rgb(154, 5, 35), rgb(248, 195, 191), rgb(235, 28, 51), rgb(203, 8, 40), rgb(251, 119, 151), rgb(235, 28, 51));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Akaya Kanadaka', cursive;
+}
+
+h1 img {
+  width: 60px;
+  height: 65px;
+}
+
+#coronavirus-structure-image-1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#coronavirus-structure-image-1 img {
+  width: 400x;
+  height: 350px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+#covid-structure-info-brief {
+  width: 100wh;
+  margin-top: 8px;
+  margin-left: 50px;
+  margin-right: 50px;
+  word-wrap: break-word;
+  text-align: justify;
+}
+
+#covid-structure-info-brief h3 {
+  font-family: 'Acme', sans-serif;
+  font-size: 30px;
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
+  background: -webkit-linear-gradient(rgb(165, 205, 225), rgb(78, 118, 171), rgb(78, 118, 171), rgb(23, 31, 95), rgb(35, 56, 111), rgb(31, 69, 134));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#covid-structure-info-brief p {
+  padding-right: 5px;
+  padding-left: 7px;
+  font-size: 18px;
+  font-family: 'Mukta', sans-serif;
+}
+
+#covid-structure-info-brief img {
+  display: flex;
+  align-items: center;
+  width: 400x;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Responsive design start*/
+
+@media only screen and (max-width: 850px) {
+  h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+  h1 img {
+    width: 30px;
+    height: 35px;
+  }
+  #coronavirus-structure-image-1 img {
+    width: 300px;
+    height: 250px;
+  }
+  #covid-structure-info-brief img {
+    width: 250px;
+    height: 250px;
+  }
+  #covid-structure-info-brief {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #covid-structure-info-brief {
+    text-align: left;
+  }
+  #covid-structure-info-brief p {
+    text-align: justify;
+  }
+}

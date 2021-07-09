@@ -1,0 +1,279 @@
+/*
+
+ ////////  //     //  //     //  ////////   //     //   ////////   ///////////////   ////////  ////    //     //  /////////  ////  
+//         //     //  //     //  //     //  //     //  //     //  //     //     //  //           //    //     //  //     //    //
+//         //     //  //     //  //     //  //     //  //     //  //     //     //  //           //    //     //  //     //    //
+ ///////   /////////  //     //  /////////  /////////  /////////  //     //     //   ////////    //    /////////  //     //    //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //         //    //           //  //     //    //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //         //    //           //  //     //    //
+////////   //     //   ///////   ////////   //     //  //     //  //     //     //  ////////   //////         //  /////////  ////// 
+
+
+
+ ////////  //     //  //     //  ////////   //     //   ////////   ///////////////  
+//         //     //  //     //  //     //  //     //  //     //  //     //     //    
+//         //     //  //     //  //     //  //     //  //     //  //     //     //    
+ ///////   /////////  //     //  /////////  /////////  /////////  //     //     //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //   
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //   
+////////   //     //   ///////   ////////   //     //  //     //  //     //     //  
+
+
+ ////////   ///////    ///////////////  ////////   //     //   ///////     //////    ///////  
+//         //     //  //     //     //  //     //  //     //  //     //      //        //    
+//         //     //  //     //     //  //     //  //     //  //     //      //        //    
+ ////////  /////////  //     //     //  /////////  /////////  /////////      //        //
+       //  //     //  //     //     //  //     //  //     //  //     //      //        //   
+       //  //     //  //     //     //  //     //  //     //  //     //      //        //   
+////////   //     //  //     //     //  ////////   //     //  //     //    ///       //////  
+
+
+ ////////  /////////   //     //     //  ////////    ////////  //////////
+//         //     //   //     //     //  //     //  //     //      //    
+//         //     //   //     //     //  //     //  //     //      //    
+ ///////   /////////   //     //     //  /////////  //     //      //
+       //  //     //   //     //     //  //     //  //     //      //   
+       //  //     //   //     //     //  //     //  //     //      //   
+////////   //     //    //////////////   //     //  //     //      //
+
+*/
+.about {
+  padding-top: 15vh;
+  width: 100%;
+  height: 100vh;
+}
+
+.about h1 {
+  padding-top: 5px;
+  font-size: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
+  background: -webkit-linear-gradient(rgb(154, 5, 35), rgb(248, 195, 191), rgb(235, 28, 51), rgb(203, 8, 40), rgb(251, 119, 151), rgb(235, 28, 51));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Akaya Kanadaka', cursive;
+}
+
+.about h1 span {
+  font-size: 30px;
+  padding: 40px 20px 0 20px;
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
+  background: -webkit-linear-gradient(rgb(165, 205, 225), rgb(78, 118, 171), rgb(78, 118, 171), rgb(23, 31, 95), rgb(35, 56, 111), rgb(31, 69, 134));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about h1 img {
+  width: 150px;
+  height: 150px;
+  padding: 0 25px 0 25px;
+}
+
+#details-about-project {
+  width: 100%;
+}
+
+#details-about-project p {
+  padding: 25px 50px 0 50px;
+  font-size: 20px;
+  text-align: justify;
+  font-family: 'Mukta', sans-serif;
+}
+
+#details-about-project p a {
+  color: rgb(108, 125, 189);
+  text-decoration: none;
+}
+
+
+/* icons link js file */
+
+
+/* https://fontawesome.com/v4.7/icons/#brand */
+
+
+/* img fils */
+
+
+/* https://www.flaticon.com/search?search-type=icons&word=facebook&license=selection&color=&stroke=¤t_section=&author_id=&pack_id=&family_id=&style_id=&choice=&type= */
+
+.developer {
+  display: flex;
+  /*justify-content: space-between;*/
+  justify-content: center;
+  padding: 20px 80px 20px 80px;
+}
+
+.shubham_sawant {
+  width: 40vw;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.9);
+}
+
+.shubham_sawant section {
+  display: flex;
+  justify-content: center;
+}
+
+.shubham_sawant img {
+  width: 150px;
+  height: 150px;
+  margin-top: 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 50px blue;
+}
+
+.shubham_sawant h4 {
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 45px;
+  margin-top: 5px;
+  font-family: 'Teko', sans-serif;
+}
+
+.shubham_sawant h5 {
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  text-transform: capitalize;
+  font-size: 30px;
+  margin-top: -5px;
+  font-family: 'Stint Ultra Condensed', cursive;
+}
+
+.shubham_sawant .skills section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 60%;
+  display: inline-block;
+}
+
+.shubham_sawant .skills span {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.shubham_sawant .skill {
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+  width: 80px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 2px 5px 2px 5px;
+  border-radius: 2px;
+  border: 1px solid white;
+  font-size: 20px;
+  font-family: 'Stint Ultra Condensed', cursive;
+}
+
+.shubham_sawant #skillsTag {
+  text-align: left;
+  color: white;
+  text-transform: capitalize;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+
+.social_media__ {
+  display: flex;
+  text-align: center;
+}
+
+.social_media__ ul {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.social_media__ ul li {
+  position: relative;
+  display: block;
+  height: 40px;
+  width: 40px;
+  font-size: 24px;
+  line-height: 45px;
+  border-radius: 50%;
+  margin: 0px 15px;
+  cursor: pointer;
+  background-color: black;
+}
+
+.social_media__ ul li i {
+  color: rgb(207, 207, 207);
+}
+
+.social_media__ ul li:nth-child(1):hover {
+  box-shadow: 0 0 20px rgb(76, 172, 84);
+}
+
+.social_media__ ul li:nth-child(1) i:hover {
+  color: green;
+}
+
+.social_media__ ul li:nth-child(2):hover {
+  box-shadow: 0 0 20px rgb(244, 89, 47);
+}
+
+.social_media__ ul li:nth-child(2) i:hover {
+  color: red;
+}
+
+.social_media__ ul li:nth-child(3):hover {
+  box-shadow: 0 0 20px rgb(28, 116, 212);
+}
+
+.social_media__ ul li:nth-child(3) i:hover {
+  color: blue;
+}
+
+
+/* Responsive design start*/
+
+@media only screen and (max-width: 850px) {
+  .about {
+    margin-right: 0;
+  }
+  .about h1 {
+    display: block;
+    font-size: 35px;
+    text-align: center;
+  }
+  .about h1 span {
+    font-size: 22px;
+    padding: 10px 20px 0 20px;
+  }
+  .about h1 img {
+    width: 80px;
+    height: 80px;
+    padding: 0 25px 0 25px;
+  }
+  #details-about-project p {
+    padding: 25px 20px 0 20px;
+    font-size: 20px;
+  }
+  .developer {
+    margin-top: 20px;
+    display: block;
+    padding: 0;
+  }
+  .shubham_sawant {
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    width: 80vw;
+  }
+  .shubham_sawant .skills section {
+    width: 98%;
+  }
+}

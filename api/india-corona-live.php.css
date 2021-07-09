@@ -1,0 +1,232 @@
+/*
+
+ ////////  //     //  //     //  ////////   //     //   ////////   ///////////////   ////////  ////    //     //  /////////  ////  
+//         //     //  //     //  //     //  //     //  //     //  //     //     //  //           //    //     //  //     //    //
+//         //     //  //     //  //     //  //     //  //     //  //     //     //  //           //    //     //  //     //    //
+ ///////   /////////  //     //  /////////  /////////  /////////  //     //     //   ////////    //    /////////  //     //    //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //         //    //           //  //     //    //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //         //    //           //  //     //    //
+////////   //     //   ///////   ////////   //     //  //     //  //     //     //  ////////   //////         //  /////////  ////// 
+
+
+
+ ////////  //     //  //     //  ////////   //     //   ////////   ///////////////  
+//         //     //  //     //  //     //  //     //  //     //  //     //     //    
+//         //     //  //     //  //     //  //     //  //     //  //     //     //    
+ ///////   /////////  //     //  /////////  /////////  /////////  //     //     //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //   
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //   
+////////   //     //   ///////   ////////   //     //  //     //  //     //     //  
+
+
+ ////////   ///////    ///////////////  ////////   //     //   ///////     //////    ///////  
+//         //     //  //     //     //  //     //  //     //  //     //      //        //    
+//         //     //  //     //     //  //     //  //     //  //     //      //        //    
+ ////////  /////////  //     //     //  /////////  /////////  /////////      //        //
+       //  //     //  //     //     //  //     //  //     //  //     //      //        //   
+       //  //     //  //     //     //  //     //  //     //  //     //      //        //   
+////////   //     //  //     //     //  ////////   //     //  //     //    ///       //////  
+
+
+ ////////  /////////   //     //     //  ////////    ////////  //////////
+//         //     //   //     //     //  //     //  //     //      //    
+//         //     //   //     //     //  //     //  //     //      //    
+ ///////   /////////   //     //     //  /////////  //     //      //
+       //  //     //   //     //     //  //     //  //     //      //   
+       //  //     //   //     //     //  //     //  //     //      //   
+////////   //     //    //////////////   //     //  //     //      //
+
+*/
+* {
+  font-family: 'Mukta', sans-serif;
+}
+
+.coid-19-live-india--india-corona-live {
+  padding-top: 15vh;
+}
+
+h1 {
+  padding-top: 5px;
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
+  background: -webkit-linear-gradient(rgb(154, 5, 35), rgb(248, 195, 191), rgb(235, 28, 51), rgb(203, 8, 40), rgb(251, 119, 151), rgb(235, 28, 51));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Akaya Kanadaka', cursive;
+}
+
+.table-design {
+  width: 90vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.table-design table {
+  width: 100%;
+  margin-right: 5vw;
+  margin-left: 5vw;
+  border-collapse: collapse;
+}
+
+.table-design tr {
+  font-size: 18px;
+  font-family: 'Mukta', sans-serif;
+}
+
+.table-design tr:nth-child(even) {
+  background-color: rgba(252, 170, 170, 1);
+}
+
+.table-design tr:nth-child(1) {
+  font-size: 20px;
+  3 color: white;
+  text-transform: uppercase;
+  background-color: red;
+  font-weight: bold;
+}
+
+.table-heading {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+
+.table-design table td {
+  text-align: center;
+  font-family: 'Mukta', sans-serif;
+  cursor: auto;
+  ;
+}
+
+.table-design tr:hover {
+  font-size: 20px;
+  color: rgb(255, 0, 0);
+}
+
+.cases {
+  display: flex;
+  justify-content: center;
+}
+
+.cases table {
+  border-collapse: collapse;
+}
+
+#cases-in-india {
+  margin-right: 3vw;
+}
+
+#cases-in-maharashtra {
+  margin-left: 3vw;
+}
+
+.cases th {
+  text-align: left;
+  padding-left: 15px;
+  font-size: 30px;
+  font-family: 'Mukta', sans-serif;
+}
+
+.cases tr:nth-child(2) {
+  text-align: left;
+  font-size: 14px;
+}
+
+.cases tr:nth-child(3) {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cases td {
+  padding-left: 5px;
+  padding-right: 5px;
+  border-right: 1px solid rgb(184, 182-3, 178);
+}
+
+.cases table td:nth-child(1) {
+  width: 12vw;
+}
+
+.cases table td:nth-child(2) {
+  width: 6vw;
+}
+
+.cases table td:nth-child(3) {
+  width: 6vw;
+}
+
+.cases table td:nth-child(4) {
+  width: 6vw;
+}
+
+
+/* Responsive design start*/
+
+@media only screen and (max-width: 850px) {
+  h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .table-design tr:nth-child(1) {
+    display: none;
+  }
+  .table-design td {
+    border: 1px solid #ddd;
+  }
+  .table-design table {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+  }
+  .table-design table tr td {
+    display: block;
+    width: 100%;
+    text-align: right;
+  }
+  .table-design span {
+    padding-right: 8px;
+  }
+  .table-design td::before {
+    content: attr(data-label);
+    position: absolute;
+    text-align: left;
+    left: 0;
+    margin-left: 5vw;
+    padding-left: 8px;
+  }
+  .table-design td:nth-child(1) {
+    font-size: 15px;
+  }
+  .cases {
+    display: inline-block;
+  }
+  .cases th {
+    font-size: 20px;
+  }
+  #cases-in-india {
+    margin-left: 3vw;
+  }
+  #cases-in-maharashtra {
+    margin-top: 5vw;
+    margin-left: 3vw;
+  }
+  .table-design table {
+    width: 100wh;
+  }
+  .cases tr:nth-child(3) {
+    font-size: 13px;
+  }
+  .cases table td:nth-child(1) {
+    width: 30vw;
+  }
+  .cases table td:nth-child(2) {
+    width: 8vw;
+  }
+  .cases table td:nth-child(3) {
+    width: 8vw;
+  }
+  .cases table td:nth-child(4) {
+    width: 8vw;
+  }
+}

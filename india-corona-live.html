@@ -239,7 +239,7 @@
     <!-- dynamic generate cases number using js from API for india  -->
     <script>
       async function __cases_in_india__(){
-          const jsondata = await fetch('https://api.covid19india.org/data.json');
+          const jsondata = await fetch('https://data.covid19india.org/data.json');
           const jsdata = await jsondata.json();
       
           console.log('in id : "cases_in_india" show the below india data ')
@@ -258,7 +258,7 @@
     <!-- dynamic generate cases number using js from API for maharashtra  -->
     <script>
       async function __cases_in_maharashtra__(){
-          const jsondata = await fetch('https://api.covid19india.org/data.json');
+          const jsondata = await fetch('https://data.covid19india.org/data.json');
           const jsdata = await jsondata.json();
       
           console.log('in id : "cases_in_maharashtra" show the below maharashtra data ')
@@ -297,7 +297,7 @@
     <!-- dynamic generate cases number using js from API for all countries  -->
     <script>
       async function __cases_in_all_statewise__(){
-          const jsondata = await fetch('https://api.covid19india.org/data.json');
+          const jsondata = await fetch('https://data.covid19india.org/data.json');
           const jsdata = await jsondata.json();
       
           console.log('in id : "all-statewise-cases-in-india-dynamic-table" show the below Country data ')
